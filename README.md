@@ -4,25 +4,25 @@ study for jetson-nano
 
 # Use run build with cuda comfiler
 
-'''
+```
 nvcc file_name.cu
 
-'''
+```
 
 
 # see gpu state
 
-'''
+```
 sudo ./tegrastats
 
-'''
+```
 
 # see gpu monitor
 
-'''
+```
 cat /sys/devices/gpu.o/load
 
-'''
+```
 
 
 # device info
@@ -31,7 +31,7 @@ cat /sys/devices/gpu.o/load
 
 # nvida jet-pack info 
 
-'''
+```
 Package: nvidia-jetpack
 Version: 4.6-b199
 Architecture: arm64
@@ -42,4 +42,4 @@ Homepage: http://developer.nvidia.com/jetson
 Priority: standard
 Section: metapackages
 
-'''
+```
