@@ -2,7 +2,7 @@
 study for jetson-nano
 
 
-# Use run build with cuda comfiler
+# Use run build with cuda compiler
 
 ```
 nvcc file_name.cu
